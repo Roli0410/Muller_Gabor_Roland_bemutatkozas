@@ -1,8 +1,61 @@
 body{
 margin: 0;
-background-color: antiquewhite;
+background-color: rgb(189, 177, 162);
 color: darkblue;
 font-family: 'Segoe UI';
 font-size: 17px;
 line-height: 1.7
+}
+
+.fejlec {
+  background-color: darkblue;
+  color: #ffffff;
+  padding: 40px 20px 32px;
+  text-align: center;
+}
+
+.profilkep {
+  width: 150px;
+  height: 150px;
+  border: 5px solid #ffffff00;
+  border-radius: 50%;
+  margin-bottom: 14px;
+}
+
+.fejlec h1 {                        
+  margin: 0 0 6px;
+  font-size: 32px;
+}
+
+.motto {
+  margin: 0;
+  color: rgb(146, 146, 236);
+  font-style: italic;
+}
+
+.menu {
+  background-color: rgb(5, 5, 107);
+  padding: 12px 20px;
+  text-align: center;
+}
+
+.menu a {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 14px;
+  margin: 2px;
+  border-radius:0px;
+  font-size: 15px;
+}
+
+
+.menu a:hover {
+  background-color: rgb(135, 166, 177);
+}
+
+.tartalom {
+  width: 90%;              /* keskeny képernyőn a szélesség 90%-a */
+  max-width: 850px; /* 800–900px */;   /* de sosem szélesebb ennél */
+  margin: 30px auto;       /* fent-lent 30px, jobbra-balra auto = KÖZÉPRE */
 }
