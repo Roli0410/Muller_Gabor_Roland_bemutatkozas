@@ -55,7 +55,31 @@ line-height: 1.7
 }
 
 .tartalom {
-  width: 90%;              /* keskeny képernyőn a szélesség 90%-a */
-  max-width: 850px; /* 800–900px */;   /* de sosem szélesebb ennél */
-  margin: 30px auto;       /* fent-lent 30px, jobbra-balra auto = KÖZÉPRE */
+  width: 90%;
+  max-width: 850px;
+  margin: auto;
+}
+
+.doboz {
+  background-color: rgb(219, 217, 217);
+  border: 1px solid #e2ddd3b2;      
+  border-left: 6px solid darkblue;
+  border-radius: 10px;
+  padding: 24px 28px;
+  margin-bottom: 26px;
+}
+
+h2 {
+  margin: 0 0 12px;
+  color: rgb(2, 2, 107);
+  font-size: 25px;
+}
+
+strong {
+  color:rgb(2, 2, 107);
+}
+
+.halvany {
+  color: #7c7efca8;
+  font-size: 15px;
 }
